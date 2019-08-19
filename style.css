@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+ 
+  height: auto;
+  font-size: 1em;
+  background-color: lightblue;
+  /* border-radius: 40px; */
+
+}
+
+.container > .title{
+  text-align:center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+  border: 1px solid black;
+  background: white;
+  
+}
+
+.content-1{
+  display: flex;
+  height: auto;
+  font-family: 'Schoolbell', cursive;
+  line-height: 2em;
+  align-items: stretch;
+  border: 1px solid black;
+}
+
+.content-1 p{
+  padding: 2em;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+.container{
+  background-color: pink;
+  height: auto;
+
+}
+
+.container > .title {
+  font-size: 1em;
+}
+
+.content-1{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+}
